@@ -14,35 +14,42 @@ Require:
 * Enviroment Name
 * Git
 
-Set a virtualenv with::
-`virtualenv venv`
+Set a virtualenv with:
 
-Install **awsebcli** with pip::
-`pip install awsebcli`
+```virtualenv venv```
 
+Install **awsebcli** with pip:
 
-You can use this project running::
-`django-admin.py startproject --template=https://github.com/rafaelmv/DYS-WorkShop/zipball/master`
+```pip install awsebcli```
 
 
-To start use::
-`eb init`
+You can use this project running:
+
+```django-admin.py startproject --template=https://github.com/rafaelmv/DYS-WorkShop/zipball/master```
+
+
+To start use:
+
+```eb init```
+
 
 This command ask you for some data and then you can start to create your project.
 
 
-To create your project and deploy the first version use::
-`eb create`
+To create your project and deploy the first version use:
+
+```eb create```
 
 That create a container with your project.
 
-Wait a few minutes because the project is setting up, then only use::
-`eb open`
+Wait a few minutes because the project is setting up, then only use:
+
+```eb open```
+
 and this open a new tab in your browser.
 
-For any new deploy use::
-`eb deploy`
+For any new deploy use:
+
+```eb deploy```
 
 Link to the [project](http://demo-dev.elasticbeanstalk.com/)
-
-

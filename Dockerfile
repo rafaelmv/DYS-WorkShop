@@ -62,5 +62,3 @@ CMD ["sh", "./deploy/container_start.sh"]
 
 # Expose listen ports
 EXPOSE 8002
-
-

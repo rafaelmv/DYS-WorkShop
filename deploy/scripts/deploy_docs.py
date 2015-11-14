@@ -1,8 +1,8 @@
 import os
 import boto3
 
-AWS_ACCESS_KEY_ID = 'AKIAIUKGJOBWI64POTPA'
-AWS_ACCESS_KEY_SECRET = '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'
+AWS_ACCESS_KEY_ID = ''
+AWS_ACCESS_KEY_SECRET = ''
 bucket_name = 'dev.ctzn.co.uk'
 sourceDir = "../../docs/build/html/"
 destDir = ''

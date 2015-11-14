@@ -1,5 +1,5 @@
 # Elastic Beanstalk, Docker & Django
-============================================
+------------------------------------------
 
 This project contains a Docker container ready to use as a bolilerplate for Elastic Beanstalk.
 
